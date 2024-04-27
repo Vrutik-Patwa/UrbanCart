@@ -26,7 +26,7 @@
             <a href="#">Services</a>
           </li>
           <li>
-            <a href="#">Chef</a>
+            <a href="#">Contact</a>
           </li>
           <li>
             <a href="#">Log in</a>
@@ -55,17 +55,19 @@
           />
         </div>
       </div>
-
-      <button
-        class="text-white mr-20 border-0 bg-bubble-gum p-1 px-5 border-solid rounded-full"
-      >
-        Contact
-      </button>
+      <!-- cart -->
+      <div class="flex items-center gap-2">
+        <img src="./image/cart_icon.png" class="object-cover h-8" alt="cart">
+        <p class="text-white font-medium mr-12">Cart</p>
+      </div>
       <!-- Nav Elements Complete -->
     </div>
     <!-- Nav Comletete -->
     <!-- Header Slider-->
-    <div>
+    <div class="flex items-center" id="imgs">
+      <a class="absolute bg-arrow transition ease-in delay-75 hover:bg-white px-5 py-3 m-5 rounded-full" href="" id="prev_btn">&#129144</a>
+      <a class="absolute bg-arrow transition ease-in delay-75 hover:bg-white right-0  px-5 py-3 m-5 rounded-full" href="" id="next_btn">&#129146</a>
+
       <ul class="flex overflow-scroll scrollbar-hide">
         <!-- Custom Css -->
         <!-- .scrollbar-hide::-webkit-scrollbar {
@@ -73,12 +75,13 @@
           }
         -->
         <!-- Buttons For arrows -->
-        <a href=""></a>
         <img src="./image/header1.jpg" alt="" />
         <img src="./image/header2.jpg" alt="" />
         <img src="./image/header3.jpg" alt="" />
         <img src="./image/header4.jpg" alt="" />
       </ul>
     </div>
+
+    <script src="index.js"></script>
   </body>
 </html>

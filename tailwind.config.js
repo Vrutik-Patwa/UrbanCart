@@ -15,6 +15,7 @@ module.exports = {
       nav: "#131921",
       "bubble-gum": "#0E46A3",
       "search-bar": "#FFEFEF",
+      arrow: "#ecf7ff",
     },
     extend: {},
   },
