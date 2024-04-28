@@ -40,3 +40,30 @@ next_btn.addEventListener("click", (e) => {
 });
 
 console.log(n);
+
+const productcontainer = document.querySelectorAll("#products img");
+
+console.log(productcontainer);
+const prev_btn_product = document.getElementById("product_prev");
+const next_btn_product = document.getElementById("product_next");
+// let j = 0;
+// function changeproduct() {
+//   for (const ele in productcontainer) {
+//     productcontainer[ele].style.display = "none";
+//   }
+//   for (const ele = j; ele < j + 2; ele++) {
+//     productcontainer[ele].style.display = "flex";
+//     console.log(ele);
+//   }
+// }
+
+// changeproduct();
+// next_btn_product.addEventListener("click", (e) => {
+//   e.preventDefault();
+// });
+
+// prev_btn_product.addEventListener("click", (e) => {
+//   e.preventDefault();
+// });
+
+// Change product Pending
