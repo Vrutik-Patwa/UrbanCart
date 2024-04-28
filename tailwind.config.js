@@ -17,6 +17,12 @@ module.exports = {
       "search-bar": "#FFEFEF",
       arrow: "#ecf7ff",
       body: "#BAE0B7",
+      signbody: "#F6F9FB",
+      signbody2: "#F0EDD4",
+      signcontainer: "#FFFFFF",
+      signcontainer2: "#F9FBE7",
+      signtext: "#314160",
+      black: "#314160",
     },
     fontFamily: {
       otline: ["Outfit"],
