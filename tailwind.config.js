@@ -16,6 +16,10 @@ module.exports = {
       "bubble-gum": "#0E46A3",
       "search-bar": "#FFEFEF",
       arrow: "#ecf7ff",
+      body: "#BAE0B7",
+    },
+    fontFamily: {
+      otline: ["Outfit"],
     },
     extend: {},
   },
