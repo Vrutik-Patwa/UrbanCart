@@ -23,6 +23,7 @@ module.exports = {
       signcontainer2: "#F9FBE7",
       signtext: "#314160",
       black: "#314160",
+      black2: "#000000",
     },
     fontFamily: {
       otline: ["Outfit"],
