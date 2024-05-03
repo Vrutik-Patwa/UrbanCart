@@ -5,26 +5,45 @@
     <title>Sign Up</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body class="flex justify-center bg-signbody items-center h-screen">
-    <!-- Form Container -->
-    <div
-      class="shadow-2xl bg-signcontainer text-signtext p-56 rounded-3xl relative flex justify-center"
-    >
-      <div class="absolute top-10 text-2xl font-bold">Sign Up</div>
-      <div class="absolute top-20 text-md font-normal">
-        Lets Get Started with your 30 days free trial Up
-      </div>
-      <!-- <div class="">
-        <h1 class="p-10 text-black2">Name</h1>
-      </div> -->
+  <body>
+    <!-- Screen Container -->
+    <div class="flex justify-center items-center bg-signbody2 h-screen">
+      <!-- Form Container -->
       <div
-        class="p-1 border-black2 border-solid absolute w-full flex justify-center top-[30%] outline-0"
+        class="bg-signcontainer2 border-4 border-black2 p-56 rounded-[15%] box-border flex justify-center items-center relative"
       >
-        <input
-          type="text"
-          class="rounded-xl p-2 box-border w-[75%] outline-0 border-solid border-black2"
-          placeholder="Name"
-        />
+        <div class="text-4xl font-bold absolute top-[7%]">Sign up</div>
+        <div class="text-xl font-semibold absolute top-[18%]">Join us now</div>
+        <div class="absolute justify-center flex-col">
+          <div class="mb-4 mt-10">
+            <input
+              type="text"
+              placeholder="name"
+              class="border-2 border-black2 p-2 rounded-lg w-64 box-border"
+            />
+          </div>
+          <div class="mb-4">
+            <input
+              type="text"
+              placeholder="email"
+              class="border-2 border-black2 p-2 rounded-lg w-64 box-border"
+            />
+          </div>
+          <div class="mb-4">
+            <input
+              type="text"
+              placeholder="Password"
+              class="border-2 border-black2 p-2 rounded-lg w-64 box-border"
+            />
+          </div>
+          <div class="mb-4">
+            <input
+              type="text"
+              placeholder="Confirm Password"
+              class="border-2 border-black2 p-2 rounded-lg w-64 box-border"
+            />
+          </div>
+        </div>
       </div>
     </div>
   </body>
