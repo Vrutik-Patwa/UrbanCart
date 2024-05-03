@@ -28,6 +28,9 @@ module.exports = {
       inputbox: "#323644",
       button: "#1D90F5",
       button2: "#555B69",
+      signinbody: "#F8FBFE",
+      signincontainer: "#FAFCFE",
+      links: "#A6A2E7",
     },
     fontFamily: {
       otline: ["Outfit"],

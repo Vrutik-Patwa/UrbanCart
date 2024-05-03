@@ -3,6 +3,57 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sign in</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
-  <body></body>
+  <body>
+    <!-- Whole Container -->
+    <div class="bg-signbody h-screen flex justify-center items-center">
+      <!-- Form Container -->
+      <div
+        class="bg-form h-[82%] w-[82%] flex justify-start items-center rounded-3xl"
+      >
+        <!-- Left Container -->
+        <div class="w-[60%] h-full flex justify-center items-center text-white">
+          <img
+            src="./image/garment-packaging-bags.png"
+            class="h-full w-full rounded-e-3xl scale-x-[-1]"
+            alt=""
+          />
+        </div>
+        <!-- Right Container -->
+        <div class="w-[40%] relative h-full flex-col text-white">
+          <h1 class="text-xl mt-20 ml-10 flex gap-10 font-semibold">
+            Welcome to UrbanCart
+            <div class="text-sm absolute right-10">
+              No account ?<br />
+              <div class="text-links text-sm font-light">Sign up</div>
+            </div>
+          </h1>
+          <h1 class="text-5xl mt-2 ml-10 font-bold">Sign in</h1>
+          <!-- Input boxes -->
+          <h1 class="text-base ml-10 mt-10">
+            Enter your username or email address
+          </h1>
+          <input type="text" class="ml-10 mt-2 bg-inputbox pl-4 w-[80%]
+          rounded-xl pr-8 py-3" / placeholder="Username or Email">
+          <h1 class="text-base ml-10 mt-6">Enter your Password</h1>
+          <input type="text" class="ml-10 mt-2 bg-inputbox pl-4 w-[80%]
+          rounded-xl pr-8 py-3" / placeholder="Password">
+          <h2 class="text-sm text-links mt-2 absolute right-14">
+            Forgot Password?
+          </h2>
+          <button class="ml-10 mt-12 py-2 w-[84%] bg-link rounded-3xl">
+            Sign in
+          </button>
+          <button
+            class="bg-white text-black2 font-bold ml-10 w-72 py-3 rounded-2xl mt-4"
+          >
+            Sign in with google
+          </button>
+          <button>Facebook</button>
+          <button>Apple</button>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
