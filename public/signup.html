@@ -7,42 +7,79 @@
   </head>
   <body>
     <!-- Screen Container -->
-    <div class="flex justify-center items-center bg-signbody2 h-screen">
+
+    <div class="flex justify-center items-center bg-signbody h-screen">
       <!-- Form Container -->
-      <div
-        class="bg-signcontainer2 border-4 border-black2 p-56 rounded-[15%] box-border flex justify-center items-center relative"
-      >
-        <div class="text-4xl font-bold absolute top-[7%]">Sign up</div>
-        <div class="text-xl font-semibold absolute top-[18%]">Join us now</div>
-        <div class="absolute justify-center flex-col">
-          <div class="mb-4 mt-10">
-            <input
-              type="text"
-              placeholder="name"
-              class="border-2 border-black2 p-2 rounded-lg w-64 box-border"
-            />
+      <div class="bg-form w-[82%] my-20 rounded-3xl h-[86%]">
+        <!-- NavBar -->
+        <div class="flex rounded-t-3xl h-32 p-2">
+          <!-- Circle -->
+          <div
+            class="bg-circle rounded-[100%] mt-7 h-10 ml-16 p-1 text-sm aspect-square text-transparent"
+          >
+            b
           </div>
-          <div class="mb-4">
-            <input
-              type="text"
-              placeholder="email"
-              class="border-2 border-black2 p-2 rounded-lg w-64 box-border"
-            />
+          <!-- Logo -->
+          <div
+            class="text-white font-bold text-base mt-8 py-1 ml-2 items-center"
+          >
+            UrbanCart
           </div>
-          <div class="mb-4">
-            <input
-              type="text"
-              placeholder="Password"
-              class="border-2 border-black2 p-2 rounded-lg w-64 box-border"
-            />
+        </div>
+        <!-- Actual Form -->
+
+        <div class="ml-20">
+          <div class="text-formcontainer ml-1 font-bold">START FOR FREE</div>
+          <div class="text-white text-5xl mt-4 flex font-bold">
+            Create new account
+            <div class="text-circle ml-1 font-bold">.</div>
           </div>
-          <div class="mb-4">
-            <input
-              type="text"
-              placeholder="Confirm Password"
-              class="border-2 border-black2 p-2 rounded-lg w-64 box-border"
-            />
+          <div class="text-formcontainer ml-1 flex font-semibold mt-4">
+            Already A Member?
+            <div class="ml-2 text-li">Log in</div>
           </div>
+          <!-- Input boxes -->
+          <div class="flex-col mt-8">
+            <div class="flex gap-4">
+              <input
+                type="text"
+                placeholder="First name"
+                class="py-4 px-6 rounded-lg text-white outline-none bg-inputbox"
+              />
+              <input
+                type="text"
+                placeholder="Last name"
+                class="py-4 px-6 rounded-lg text-white outline-none bg-inputbox"
+              />
+            </div>
+            <div>
+              <input
+                type="text"
+                class="bg-inputbox text-white mt-8 py-4 rounded-lg px-6 w-[40%]"
+                placeholder="Email"
+              />
+            </div>
+            <div>
+              <input
+                type="text"
+                class="text-white bg-inputbox mt-8 py-4 rounded-lg px-6 w-[40%]"
+                placeholder="Password"
+              />
+            </div>
+            <!-- Buttons -->
+
+            <div class="flex gap-4 mt-8">
+              <button class="text-white px-14 py-4 bg-button2 rounded-full">
+                Change Method
+              </button>
+              <button class="text-white px-14 py-4 bg-button rounded-full">
+                Create Account
+              </button>
+            </div>
+          </div>
+          <!-- <div class="absolute top-[32%] w-[40%] right-40">
+            <img src="./image/garment-packaging-bags.png" alt="" />
+          </div> -->
         </div>
       </div>
     </div>
