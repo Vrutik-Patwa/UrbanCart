@@ -31,6 +31,9 @@ module.exports = {
       signinbody: "#F8FBFE",
       signincontainer: "#FAFCFE",
       links: "#A6A2E7",
+      contactbody: "#D6D7E1",
+      contactform: "#FFFFFF",
+      contactfooter: "#010101",
     },
     fontFamily: {
       otline: ["Outfit"],
