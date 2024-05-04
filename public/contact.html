@@ -5,7 +5,7 @@
     <title>Contact Page</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body class="bg-contactbody">
+  <body class="bg-contactbody relative">
     <!-- Nav Element -->
     <div class="flex justify-between items-center bg-nav">
       <!-- Image ->Logo -->
@@ -57,9 +57,9 @@
       </div>
       <!-- Nav Elements Complete -->
     </div>
-    <div class="h-[80%] flex justify-center items-center mt-10">
+    <div class="h-[85%] flex justify-center items-center mt-10">
       <!-- Form Container -->
-      <div class="bg-contactform w-[80%] flex h-[90%] rounded-3xl">
+      <div class="bg-contactform w-[80%] flex h-[95%] rounded-3xl relative">
         <!-- Left -->
         <div class="h-full w-[50%] relative">
           <div class="absolute ml-44 mt-40">
@@ -72,24 +72,87 @@
             <h1 class="text-sm font-thin">URBANCART Industries 108-156</h1>
             <!-- Icons -->
           </div>
-          <div class="absolute ml-[28%] mt-[50%] ">
-            <div class="h-9 mt-2 flex">
+          <div class="absolute ml-[28%] mt-[50%]">
+            <div class="h-9 mt-5 flex">
               <img
                 src="./image/Color-of-the-LinkedIn-Logo.jpg"
-                class="h-full aspect-square py-1 absolute"
+                class="h-full aspect-square py-1"
                 alt=""
               />
-              <img
-              src="./image/Facebook.png"
-              class="h-[200%] w-[50%] py-2 relative ml-8"
-              alt=""
-            />
+              <img src="./image/Facebook.png" class="" alt="" />
+              <img src="./image/Google-Logo-.png" class="p-1" alt="" />
             </div>
           </div>
-        <!-- </div> -->
-      </div>
-      <!-- Right -->
-      <div class="h-full w-[50%] justify-center flex items-center">Right</div>
+          <!-- </div> -->
+        </div>
+        <!-- Right -->
+        <div class="h-full w-[50%]  relative">
+          <!-- Form -->
+        <div class="absolute mt-16 flex-col ml-40" >
+            <div class="m-4">
+                <input type="text" class="w-80 h-9 px-4 rounded-lg outline-none bg-contactinput" placeholder="Name" />
+            </div>
+            <div class="m-4">
+                <input type="text" placeholder="Email" class="w-80 h-9 px-4 rounded-lg outline-none bg-contactinput"  />
+            </div>
+            <div class="m-4">
+                <input type="text" placeholder="Company name" class="w-80 h-9 px-4 outline-none rounded-lg bg-contactinput"/>
+            </div>
+            <div class="m-4">
+                <input type="text" placeholder="Text" class="w-80 h-28 outline-none px-4 absolute rounded-lg bg-contactinput"/>
+            </div>
+            <div class="m-4 mt-36">
+                <button class="bg-contactbutton text-white p-2 px-5 font-bold rounded-2xl">Contact Us</button>
+            </div>
+        </div>
+        
+            <!-- footer -->
+
     </div>
+    <div class="bg-black2 h-[30%] rounded-b-3xl w-full bottom-0 absolute flex gap-10 justify-center">
+        <div class="text-white mt-4 font-semibold  flex-col gap-1 text-sm">
+            <h1 class="mb-3 opacity-25" >PharmBonus</h1>
+            <h1 class="mb-3 opacity-90">Become a partner</h1>
+            <h1 class="mb-3 opacity-75">News</h1>
+            <h1 class="mb-3 opacity-75">Contact Us</h1>
+        </div>
+        <div class="text-white mt-4 font-semibold text-sm">
+            <h1 class="opacity-25 mb-3">Location</h1>
+            <h1 class="opacity-75 mb-3">International </h1>
+            <h1 class="opacity-75 mb-3">Belarus</h1>
+        </div>
+        <div class="text-white mt-4 text-sm font-semibold">
+            <h1 class="opacity-25 mb-3">About</h1>
+            <h1 class="opacity-75 mb-3">Terms and Conditions</h1>
+            <h1 class="opacity-75 mb-3">info@UrbanCart.com</h1>
+        </div>
+        <div class="text-white mt-4 text-sm font-semibold">
+            <h1 class="opacity-25 mb-3 ml-5">Download</h1>
+            <div class="flex h-4 justify-center mb-3">
+                <img src="./image/playstore-removebg-preview (1).png" class="h-full mt-0.5 mr-2" alt="">
+                <h1 class="opacity-75 ">Google Play </h1>
+            </div>
+
+        </div>
+        <div class="text-white mt-4 text-sm font-semibold">
+            <h1 class="opacity-25 mb-3 ml-3.5">Social</h1>
+            <div class="flex h-5 mb-3 justify-center" >
+                <img src="./image/linkedin.png" class="h-full mr-1.5 ml-2.5 mt-0.5" alt="">
+                <h1 class="opacity-75 mb-2">Linked in</h1>
+            </div>
+            <div class="flex h-[10%] ml-1 mb-3 justify-center">
+                <img src="./image/facebook-app-round-white-icon.webp " class="h-full mr-1.5 mt-0.5 ml-2" alt="">
+            <h1 class="opacity-75 ">Facebook</h1>
+            </div>
+            <div class="flex h-[10%] ml-1 justify-center">
+                <img src="./image/instagram-white-icon.webp" class="h-full ml-2.5 mr-1.5 mt-0.5 " alt="">
+                <h1 class="opacity-75 mb-2">Instagram</h1>
+
+            </div>
+        </div>
+        
+    </div>
+    </div>
+
   </body>
 </html>

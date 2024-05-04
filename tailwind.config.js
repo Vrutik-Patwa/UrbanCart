@@ -34,6 +34,8 @@ module.exports = {
       contactbody: "#D6D7E1",
       contactform: "#FFFFFF",
       contactfooter: "#010101",
+      contactinput: "#EBEBEC",
+      contactbutton: "#0379F7",
     },
     fontFamily: {
       otline: ["Outfit"],
